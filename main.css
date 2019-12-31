@@ -1,0 +1,280 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+html {
+    background-image: url(../images/background.jpg)
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    height: 10%;
+    width: 0 auto;
+    align-content: center;
+}
+
+
+.facebook {
+    border: 2px solid red;
+    display: inline-block;
+}
+
+.facebook img:hover {
+    opacity: .5;
+}
+
+.twitter {
+    border: 2px solid red;
+    display: inline-block;
+}
+
+.twitter img:hover {
+    opacity: .5;
+}
+
+.youtube {
+    border: 2px solid red;
+    display: inline-block;
+    padding-top: 2px;
+}
+
+.youtube img:hover {
+    opacity: .5;
+}
+
+.half-life {
+    float: left;
+    clear: both;
+    height: 24.41%;
+    width: 24.41%;
+    padding-left: 1.95%;
+    margin-right: 0.48%;
+    padding-top: 4%;
+}
+
+.new-saints {
+    float: left;
+    clear: both;
+    height: 24.41%;
+    width: 24.41%;
+    padding-left: 1.95%;
+    margin-right: 0.48%;
+}
+
+.destiny {
+    float: left;
+    clear: both;
+    height: 24.41%;
+    width: 24.41%;
+    padding-left: 1.95%;
+    margin-right: 0.48%;
+}
+
+section {
+    background-image: url(../images/section.jpg);
+    width: 78.76%;
+    float: left;
+}
+
+section h3 {
+    color: maroon;
+    font-size: 150%;
+    margin-bottom: 1em;
+    padding-left: 5em;
+    padding-bottom: 4em;
+    text-decoration: none;
+}
+
+section h1 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+a:visited {
+    text-decoration: none;
+    color: maroon;
+}
+
+a:hover {
+    color: green;
+}
+
+hr {
+    margin-bottom: 4em;
+}
+
+section p {
+    padding-top: 1em;
+    margin-top: 3px;
+    padding-left: 20px;
+}
+
+header h2, h3 {
+    color: white;
+    margin-top: 40px;
+}
+
+section h1 {
+    color:red;
+    margin-top: 2em;
+}
+
+#nav_menu {
+    margin-top: 15px;
+    display: block;
+}
+
+
+#nav_menu ul {
+    list-style-type: none;
+    padding: 1em 0;
+    text-align: left;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background: #000019;
+    font-weight: bold;
+
+}
+
+header marquee {
+    color: white;
+}
+
+#nav_menu ul li {
+    display: inline;
+    padding: 0 1.5em;
+}
+
+#nav_menu ul li a:hover {
+    opacity: .5;
+}
+
+#nav_menu ul li a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+#nav_menu ul li a.current {
+    font-weight: bold;
+    color: red;
+}
+
+#nav_menu a:hover {
+    border-bottom: 3px solid red
+}
+
+#nav_menu a.active {
+  border-bottom: 3px solid red;
+}
+
+header img {
+    float: left;
+    height: 105px;
+    width: 130px;
+    margin-top: 0.0006em;
+    padding-bottom: 5px;
+}
+
+header {
+    background-image: url(../images/header.jpg);
+    padding-bottom: 15px;
+}
+
+aside {
+    float: right;
+    background: #282828;
+    height: 600px;
+    width: 21.21%;
+}
+
+.search a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+hr {
+    color: red;
+}
+
+aside h2 {
+    text-align: center;
+    font-size: 150%;
+    color: white;
+}
+
+aside li {
+    font-size: 100%;
+    color: blue;
+    display: flex;
+}
+
+footer {
+    clear: both;
+    background: linear-gradient(green, yellow, white)
+}
+
+footer p {
+    text-align: center;
+    font-size: 160%;
+}
+
+.search {
+    float: right;
+    padding-bottom: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+	#nav_menu {
+        position: absolute;
+		display: block;
+        
+	}
+    
+    /* change background and decrease padding */
+    .slicknav_menu {
+        background: steelblue !important;
+	    padding: 3px !important;
+    }
+
+    #mobile_menu {
+		display: block;
+	}
+    #mobile_menu ul {
+        background-color: steelblue;
+    }
+    #mobile_menu a {
+        background-color: steelblue;
+    }
+    #mobile_menu a:hover, #mobile_menu a:focus {
+        color: lightsteelblue;
+    }
+	header h2 {
+		font-size: 200%;
+	}
+	section {
+		float: none;
+        width: 93.3334%;
+	}
+	aside {
+		float: none;        
+		width: 93.3334%;
+        padding-top: 0;
+        padding-bottom: 1.5625em;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	header h2 {
+		font-size: 180%;
+	}
+	header h3 {
+		font-size: 115%;
+	}
+    section p {
+	    font-size: 95%;
+    }
+}
